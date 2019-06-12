@@ -9,6 +9,6 @@ RUN mkdir -p /tmp/download && \
  
  RUN groupadd -g 999 docker
  
- RUN usermod -aG staff,armayndo jenkins
+ RUN usermod -aG staff jenkins
 
 USER jenkins
