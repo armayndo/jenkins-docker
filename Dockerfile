@@ -7,8 +7,8 @@ RUN mkdir -p /tmp/download && \
  mv /tmp/download/docker/docker* /usr/local/bin/ && \
  rm -rf /tmp/download
  
- RUN groupadd -g 996 docker
+ RUN groupadd -g 999 docker
  
- RUN usermod -aG staff docker
+ RUN usermod -aG staff armayndo
 
 USER jenkins
